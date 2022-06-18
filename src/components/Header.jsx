@@ -19,26 +19,26 @@ const Header = () => {
 
   return (
     <header>
-    <div className="header_head">
-      <div className="container">
-        <div className="head_inner">
-          <div className="logo">Максим</div>
-          <ul>
-            <li><a href="#">Обо мне</a></li>
-            <li><a href="#">Портфолио</a></li>
-            <li><a href="#">Контакты</a></li>
-            
-            {
-              darkTheme === true ? 
-              <MdDarkMode className="dark-mode" onClick={() => setDrakTheme(!darkTheme)}  /> : 
-              <MdOutlineDarkMode className="dark-mode__active" onClick={() => setDrakTheme(!darkTheme)}  />
-            }
-          </ul>
+      <div className="header_head">
+        <div className="container">
+          <div className="head_inner">
+            <div className="logo">Максим</div>
+            <ul>
+              <li><a href="#">Обо мне</a></li>
+              <li><a href="#">Портфолио</a></li>
+              <li><a href="#">Контакты</a></li>
+              
+              {
+                darkTheme === true ? 
+                <MdDarkMode className="dark-mode" onClick={() => setDrakTheme(!darkTheme)}  /> : 
+                <MdOutlineDarkMode className="dark-mode__active" onClick={() => setDrakTheme(!darkTheme)}  />
+              }
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
-    <div className="header_body"></div>
-  </header>
+      <div className="header_body"></div>
+    </header>
   );
 }
 

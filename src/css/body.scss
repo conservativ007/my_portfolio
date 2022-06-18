@@ -1,0 +1,25 @@
+.body {
+  margin-top: 150px;
+
+  .body-inner {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .abut-me {
+    font-size: 45px;
+    font-family: 'Montserrat', sans-serif;
+
+    div {
+      color: #d63031;
+    }
+  }
+}
+
+.my-photo {
+  width: 300px;
+
+  img {
+    width: 100%;
+  }
+}
