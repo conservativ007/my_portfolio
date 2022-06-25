@@ -7,7 +7,6 @@ const Header = () => {
   const [darkTheme, setDrakTheme] = useState(localStorage.getItem("theme") === null ? false : true);
 
   useEffect(() => {
-    console.log(darkTheme)
     if(darkTheme === true) {
       localStorage.setItem("theme", "dark");
       document.querySelector("HTML").className = "dark";
@@ -15,7 +14,7 @@ const Header = () => {
       localStorage.removeItem("theme");
       document.querySelector("HTML").className = "";
     }
-  }, [darkTheme])
+  }, [darkTheme]);
 
   return (
     <header>

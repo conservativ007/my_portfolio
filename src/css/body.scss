@@ -13,12 +13,23 @@
     div {
       color: #d63031;
     }
+
+    .btn {
+      margin-top: 30px;
+      font-size: 16px;
+      width: 160px;
+      background-color: #d63031;
+      color: white;
+      padding: 15px 20px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
   }
 }
 
 .my-photo {
   width: 300px;
-
+  
   img {
     width: 100%;
   }

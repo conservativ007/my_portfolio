@@ -10,6 +10,7 @@ const Body = () => {
           <div className="abut-me">
             Привет, я Максим, 
             <div>веб разработчик</div> 
+            <div className="btn">Связаться со мной</div>
           </div>
           <div className="my-photo">
             <img src={photo} alt="photo" />

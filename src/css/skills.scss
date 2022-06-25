@@ -1,0 +1,36 @@
+.skills {
+  width: 100%;
+  padding: 20px 0;
+}
+
+a {
+  text-decoration: none;
+  color: #0984e3;
+}
+
+a:visited {
+  color: #0984e3;
+}
+
+.skills-title {
+  font-size: 35px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #2d3436;
+  
+}
+
+.skills-text {
+  margin-top: 45px;
+}
+
+.skills-test__item {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.skills-test__item-text {
+  font-size: 18px;
+  margin-left: 20px;
+}
