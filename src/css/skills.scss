@@ -22,15 +22,17 @@ a:visited {
 
 .skills-text {
   margin-top: 45px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .skills-test__item {
+  margin-top: 50px;
   display: flex;
   align-items: center;
-  margin-top: 50px;
 }
 
 .skills-test__item-text {
-  font-size: 18px;
-  margin-left: 20px;
+  // font-size: 18px;
+  margin: 0 20px;
 }
