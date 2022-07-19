@@ -2,8 +2,7 @@ import React from 'react';
 import photo from "../../assets/photo3.jpg";
 import "../css/body.scss";
 
-import { BsTelegram } from 'react-icons/bs';
-import { AiFillGithub } from 'react-icons/ai';
+import { BsTelegram, BsGithub } from 'react-icons/bs';
 
 const Body = () => {
   return (
@@ -29,11 +28,11 @@ const Body = () => {
               
               <div className="contacts">
                 <a href="https://github.com/conservativ007">
-                  <AiFillGithub className="contacts-item"/>
+                  <BsGithub className="contacts-item"/>
                 </a>
               </div>
             </div>
-            <button className="abut-me__button">Обо мне</button>
+            {/* <button className="abut-me__button">Обо мне</button> */}
             
           </div>
           <div className="my-photo">

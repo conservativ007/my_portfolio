@@ -1,10 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { MdDarkMode, MdOutlineDarkMode } from 'react-icons/md';
 import "../css/header.scss";
 
 const Header = () => {
 
   const [darkTheme, setDrakTheme] = useState(localStorage.getItem("theme") === null ? false : true);
+  const ref = useRef(null);
 
   useEffect(() => {
     if(darkTheme === true) {
@@ -16,32 +17,40 @@ const Header = () => {
     }
   }, [darkTheme]);
 
+  function goTo(selector) {
+    document.querySelector(`.${selector}`)
+    .scrollIntoView({
+      behavior: "smooth",
+      block: "start"
+    })
+
+    setTimeout(() => ref.current.checked = false, 1000);
+  }
+
   return (
-    
-        <div className="container">
-          <header>
-          <div className="header__content">
-            <nav className="header__menu">
-              <input type="checkbox" className="toggler"></input>
-              <div className="hamburger"><div></div></div>
-              <div className="menu">
-                <ul className="header__list">
-                  <li><a href="#">Обо мне</a></li>
-                  <li><a href="#">Навыки</a></li>
-                  <li><a href="#">Портфолио</a></li>
-                  
-                  {
-                    darkTheme === true ? 
-                    <MdDarkMode className="dark-mode" onClick={() => setDrakTheme(!darkTheme)}  /> : 
-                    <MdOutlineDarkMode className="dark-mode__active" onClick={() => setDrakTheme(!darkTheme)}  />
-                  }
-                </ul>
-              </div>
-            </nav>
+    <header>
+      <div className="container">
+        <div className="header__content">
+          <nav className="header__menu">
+            <input ref={ref} type="checkbox" className="toggler"></input>
+            <div className="hamburger"><div></div></div>
+            <div className="menu">
+              <ul className="header__list">
+                <li onClick={() => goTo("about")}>Обо мне</li>
+                <li onClick={() => goTo("skills")}>Навыки</li>
+                <li onClick={() => goTo("portfolio")}>Портфолио</li>
+                {
+                  darkTheme === true ? 
+                  <MdDarkMode className="dark-mode" onClick={() => setDrakTheme(!darkTheme)}  /> : 
+                  <MdOutlineDarkMode className="dark-mode__active" onClick={() => setDrakTheme(!darkTheme)}  />
+                }
+              </ul>
+            </div>
+          </nav>
         </div>
-        </header>
       </div>
-    
+    </header>
+      
   );
 }
 

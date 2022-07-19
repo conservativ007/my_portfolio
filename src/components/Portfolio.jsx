@@ -16,8 +16,8 @@ const Portfolio = () => {
         <div className="portfolio-title">Портфолио</div>
         <div className="portfolio-items">
 
-          <a className="item" href="https://learn-english-by-conservative.netlify.app">
-            <div>
+          <a href="https://learn-english-by-conservative.netlify.app">
+            <div className="item">
               <div className="item-image learn-english">
                 Easy to learn
               </div>
