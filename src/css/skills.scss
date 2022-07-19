@@ -26,6 +26,12 @@ a:visited {
   grid-template-columns: 1fr 1fr;
 }
 
+@media (max-width: 768px) {
+  .skills-text {
+    grid-template-columns: 1fr;
+  }
+}
+
 .skills-test__item {
   margin-top: 50px;
   display: flex;

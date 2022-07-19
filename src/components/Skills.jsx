@@ -59,7 +59,7 @@ const Skills = () => {
               <SiWebpack size={"5em"} color={"#61a1df"} />
             </div>
             <div className="skills-test__item-text">
-              Научился применять сборщик модулей JavaScript 
+              Научился работать со сборщиком модулей Webpack
             </div>
           </div>
           <div className="skills-test__item">
