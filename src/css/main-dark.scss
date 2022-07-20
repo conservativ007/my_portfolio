@@ -4,6 +4,14 @@
     background-color: black;
   }
 
+  .body-fon {
+    background-color: black;
+  }
+
+  .body-inner {
+    background-color: black;
+  }
+
   .abut-me {
     color: #ccc;
   }
@@ -22,6 +30,11 @@
   }
 
   .about-me__contacts .contacts .contacts-linked {
-    color: black;
+    color: #2d3436;
+    background-color: white;
+  }
+
+  .body .abut-me .contacts-item {
+    color: white;
   }
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import photo from "../../assets/photo3.jpg";
+import photo from "../../assets/photo-test3.png";
 import "../css/body.scss";
 
 import { BsTelegram, BsGithub } from 'react-icons/bs';
@@ -8,6 +8,7 @@ const Body = () => {
   return (
     <div className="body">
       <div className="container">
+        <div className="body-fon"></div>
         <div className="body-inner">
           <div className="abut-me">
             <div className="abut-me__hello">Привет, я Максим,</div>
@@ -32,12 +33,8 @@ const Body = () => {
                 </a>
               </div>
             </div>
-            {/* <button className="abut-me__button">Обо мне</button> */}
-            
           </div>
-          <div className="my-photo">
-            <img src={photo} alt="photo" />
-          </div>
+          <div className="my-photo" style={{backgroundImage: `url(${photo})`}}></div>
         </div>
       </div>
     </div>

@@ -1,23 +1,35 @@
 .body {
-  margin-top: 150px;
+
+  .body-fon {
+    height: 100px;
+    background-color: #dfe6e9;
+  }
+
+  @media (max-width: 768px) {
+    .body-fon {
+      height: 50px;
+    }
+  }
 
   .body-inner {
     display: flex;
     justify-content: space-between;
+    background-color: #dfe6e9;
   }
 
   .abut-me {
     
     font-family: 'Montserrat', sans-serif;
     position: relative;
+    margin-left: 10px;
 
     .abut-me__who {
-      font-size: 45px;
+      font-size: 30px;
       color: #d63031;
     }
     
     .abut-me__hello {
-      font-size: 45px;
+      font-size: 40px;
       white-space: nowrap;
     }
 
@@ -38,7 +50,7 @@
 
     .contacts .contacts-linked {
       display: block;
-      color: white;
+      color: #dfe6e9;
       background-color: #2d3436;
       border-radius: 50%;
       font-weight: 600;
@@ -91,18 +103,12 @@
 
 .my-photo {
   width: 300px;
-  
-  img {
-    width: 100%;
-  }
+  height: 350px;
+  background-size: cover;
+  border-radius: 5px;
 }
 
 @media (max-width: 768px) {
-  .body {
-    margin-top: 50px;
-    height: 230px;
-  }
-
   .body-inner .abut-me .abut-me__hello, 
   .body-inner .abut-me .abut-me__who {
     font-size: 20px;
@@ -110,11 +116,6 @@
 
   .my-photo {
     width: 150px;
+    height: 200px;
   }
-
-  // .about-me .contacts,
-  // .about-me .contacts .contacts-linked {
-  //   width: 30px;
-  //   height: 30px;
-  // }
 }
