@@ -8,7 +8,7 @@ const Header = () => {
   const ref = useRef(null);
 
   useEffect(() => {
-    if(darkTheme === true) {
+    if (darkTheme === true) {
       localStorage.setItem("theme", "dark");
       document.querySelector("HTML").className = "dark";
     } else {
@@ -19,10 +19,10 @@ const Header = () => {
 
   function goTo(selector) {
     document.querySelector(`.${selector}`)
-    .scrollIntoView({
-      behavior: "smooth",
-      block: "start"
-    })
+      .scrollIntoView({
+        behavior: "smooth",
+        block: "start"
+      })
 
     setTimeout(() => ref.current.checked = false, 1000);
   }
@@ -39,18 +39,19 @@ const Header = () => {
                 <li onClick={() => goTo("about")}>Обо мне</li>
                 <li onClick={() => goTo("skills")}>Навыки</li>
                 <li onClick={() => goTo("portfolio")}>Портфолио</li>
-                {
-                  darkTheme === true ? 
-                  <MdDarkMode className="dark-mode" onClick={() => setDrakTheme(!darkTheme)}  /> : 
-                  <MdOutlineDarkMode className="dark-mode__active" onClick={() => setDrakTheme(!darkTheme)}  />
-                }
+                <li>
+                  {
+                    darkTheme === true ?
+                      <MdDarkMode className="dark-mode" onClick={() => setDrakTheme(!darkTheme)} /> :
+                      <MdOutlineDarkMode className="dark-mode__active" onClick={() => setDrakTheme(!darkTheme)} />
+                  }
+                </li>
               </ul>
             </div>
           </nav>
         </div>
       </div>
     </header>
-      
   );
 }
 

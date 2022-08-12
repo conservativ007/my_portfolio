@@ -38,7 +38,7 @@
 .item-image.learn-english {
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
-} 
+}
 
 .item-image img {
   width: 250px;
@@ -57,7 +57,6 @@
 }
 
 .item-description {
-  box-sizing: border-box;
   height: 100px;
   padding: 10px;
   color: white;
@@ -77,6 +76,7 @@
   .portfolio-items a:nth-child(3) {
     margin-right: 0;
   }
+
   .portfolio-items a:nth-child(6) {
     margin-right: 0;
   }
@@ -117,15 +117,14 @@
   .item-description {
     position: absolute;
     height: 70px;
-    
+
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+
     bottom: 0;
     left: 0;
     right: 0;
     background-color: rgba(0, 0, 0, 0.5);
   }
 }
-

@@ -17,28 +17,26 @@ a:visited {
   font-weight: bold;
   letter-spacing: 2px;
   color: #2d3436;
-  
+
 }
 
-.skills-text {
-  // margin-top: 45px;
+.skills-content {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 
 @media (max-width: 768px) {
-  .skills-text {
+  .skills-content {
     grid-template-columns: 1fr;
   }
 }
 
-.skills-test__item {
+.skills-content__item {
   margin-top: 50px;
   display: flex;
   align-items: center;
 }
 
-.skills-test__item-text {
-  // font-size: 18px;
+.skills-content__item-description {
   margin: 0 20px;
 }

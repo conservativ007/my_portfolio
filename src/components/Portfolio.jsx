@@ -11,7 +11,7 @@ import bladeRunner from "../../assets/blade-runner.png";
 const Portfolio = () => {
 
   return (
-    <div className="portfolio">
+    <section className="portfolio">
       <div className="container">
         <div className="portfolio-title">Портфолио</div>
         <div className="portfolio-items">
@@ -36,21 +36,21 @@ const Portfolio = () => {
                 <div className="item-description__title">Shelter</div>
                 <div className="item-description__description">Сайт помощи бездомным животным</div>
               </div>
-            </div> 
+            </div>
           </a>
 
           <a href="https://rolling-scopes-school.github.io/conservativ007-JS2020Q3/game-puzzle/">
             <div className="item">
-            <div className="item-image">
-              <img src={theKingLich} alt="king" />
+              <div className="item-image">
+                <img src={theKingLich} alt="king" />
+              </div>
+              <div className="item-description">
+                <div className="item-description__title">Pazzle</div>
+                <div className="item-description__description">Попробуй свои силы в пазле</div>
+              </div>
             </div>
-            <div className="item-description">
-              <div className="item-description__title">Pazzle</div>
-              <div className="item-description__description">Попробуй свои силы в пазле</div>
-            </div>
-            </div> 
           </a>
-           
+
           <a href="https://momentumbyconservativ.netlify.app/">
             <div className="item">
               <div className="item-image">
@@ -60,9 +60,9 @@ const Portfolio = () => {
                 <div className="item-description__title">Momentum</div>
                 <div className="item-description__description">Приложение погоды</div>
               </div>
-            </div> 
+            </div>
           </a>
-          
+
           <a href="https://rolling-scopes-school.github.io/conservativ007-JS2020Q3/webdev/">
             <div className="item">
               <div className="item-image">
@@ -72,9 +72,9 @@ const Portfolio = () => {
                 <div className="item-description__title">Web dev</div>
                 <div className="item-description__description">Вёрстка макета</div>
               </div>
-            </div> 
+            </div>
           </a>
-          
+
           <a href="https://rolling-scopes-school.github.io/conservativ007-JS2020Q3/english-for-kids/">
             <div className="item">
               <div className="item-image">
@@ -84,9 +84,9 @@ const Portfolio = () => {
                 <div className="item-description__title">English for kids</div>
                 <div className="item-description__description">Изучение некоторых английских слов для самых маленьких</div>
               </div>
-            </div> 
+            </div>
           </a>
-          
+
           <a href="https://conservativ007-react-game.netlify.app/">
             <div className="item">
               <div className="item-image">
@@ -96,9 +96,9 @@ const Portfolio = () => {
                 <div className="item-description__title">Tic tac toe</div>
                 <div className="item-description__description">Игра крестики нолики</div>
               </div>
-            </div> 
+            </div>
           </a>
-          
+
           <a href="https://blade-runner-2021.netlify.app/">
             <div className="item">
               <div className="item-image">
@@ -108,12 +108,12 @@ const Portfolio = () => {
                 <div className="item-description__title">Blade runner</div>
                 <div className="item-description__description">Игра бегущий по лезвию</div>
               </div>
-            </div> 
+            </div>
           </a>
 
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 
