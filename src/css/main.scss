@@ -3,7 +3,11 @@
 
 * {
   box-sizing: border-box;
-  // transition: all 3s;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
 }
 
 body {
@@ -11,12 +15,10 @@ body {
   height: 100vh;
   transition: .5s ease;
   font-family: 'Montserrat', sans-serif;
-  // font-family: 'Roboto', sans-serif;
 }
 
 .container {
   max-width: 1200px;
-  margin: 0 auto;
 }
 
 @media (max-width: 1109px) {

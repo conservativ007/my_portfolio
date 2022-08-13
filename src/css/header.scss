@@ -172,26 +172,31 @@ ul li:last-child {
 
   // transform hamburger
 
-  .toggler:checked+.hamburger>div {
-    background-color: rgba(0, 0, 0, 0);
+  .hamburger:hover {
+    cursor: pointer;
   }
 
-  .toggler:checked+.hamburger>div::after {
-    top: 0;
-    transform: rotate(45deg);
+  .hamburger:hover.hamburger>div::before {
+    background-color: #0984e3;
   }
 
-  .toggler:checked+.hamburger>div::before {
-    top: 0;
-    transform: rotate(135deg);
+  .hamburger:hover.hamburger>div {
+    background-color: #d63031;
   }
 
-  .toggler:checked~.menu {
-    width: 100%;
+  .hamburger:hover.hamburger>div::after {
+    background-color: #00b894;
   }
 
-  .toggler:checked~.menu>ul {
-    transition: opacity 2s;
-    opacity: 1;
+  .modalview.animate .hamburger>div::before {
+    background-color: #0984e3;
+  }
+
+  .modalview.animate .hamburger>div {
+    background-color: #d63031;
+  }
+
+  .modalview.animate .hamburger>div::after {
+    background-color: #00b894;
   }
 }
