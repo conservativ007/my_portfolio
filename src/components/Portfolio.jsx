@@ -89,7 +89,7 @@ const Portfolio = () => {
 
         <a href="https://conservativ007-react-game.netlify.app/">
           <div className="item">
-            <div className="item-image">
+            <div className="item-image last-image">
               <img src={ticTacToe} alt="tic-tac-toe" />
             </div>
             <div className="item-description">
@@ -101,7 +101,7 @@ const Portfolio = () => {
 
         <a href="https://blade-runner-2021.netlify.app/">
           <div className="item">
-            <div className="item-image">
+            <div className="item-image last-image">
               <img src={bladeRunner} alt="blade-runner" />
             </div>
             <div className="item-description">

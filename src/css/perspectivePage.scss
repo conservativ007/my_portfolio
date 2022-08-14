@@ -1,3 +1,7 @@
+html {
+  overflow-x: hidden;
+}
+
 html,
 body,
 .perspective {
@@ -65,6 +69,9 @@ body {
 }
 
 /* Outer Nav */
+
+// @media (max-width: 768px) {
+
 .outer-nav {
   position: absolute;
   height: auto;
@@ -77,10 +84,7 @@ body {
   transform: translateY(-50%);
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
-}
-
-.outer-nav.right {
-  right: 25%;
+  left: 50%;
 }
 
 .outer-nav a {
@@ -107,9 +111,6 @@ body {
   display: block;
 }
 
-.outer-nav.horizontal a {
-  margin: 15px 20px;
-}
 
 /* Effect Rotate Left */
 .effect-rotateleft.modalview.animate {
@@ -131,10 +132,6 @@ body {
 .effect-rotateleft.animate .container {
   -webkit-transform: translateZ(-1800px) translateX(-50%) rotateY(45deg);
   transform: translateZ(-1800px) translateX(-50%) rotateY(45deg);
-}
-
-.no-csstransforms3d .effect-rotateleft.animate .container {
-  left: -75%;
 }
 
 .effect-rotateleft .outer-nav a {

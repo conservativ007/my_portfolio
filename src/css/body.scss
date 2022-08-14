@@ -5,7 +5,7 @@
     background-color: #dfe6e9;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 699px) {
     .body-fon {
       height: 50px;
     }
@@ -18,16 +18,16 @@
   }
 
   .abut-me {
-    
+
     font-family: 'Montserrat', sans-serif;
     position: relative;
-    margin-left: 10px;
+    padding-left: 20px;
 
     .abut-me__who {
       font-size: 30px;
       color: #d63031;
     }
-    
+
     .abut-me__hello {
       font-size: 40px;
       white-space: nowrap;
@@ -85,19 +85,6 @@
       border-radius: 5px;
       border: none;
     }
-
-    @media (max-width: 768px) {
-      .contacts,
-      .contacts .contacts-linked {
-        width: 30px;
-        height: 30px;
-      }
-
-      .abut-me__button {
-        position: absolute;
-        bottom: 5px;
-      }
-    }
   }
 }
 
@@ -108,8 +95,17 @@
   border-radius: 5px;
 }
 
-@media (max-width: 768px) {
-  .body-inner .abut-me .abut-me__hello, 
+@media (max-width: 699px) {
+  .my-photo {
+    width: 200px;
+    height: 250px;
+  }
+}
+
+
+@media (max-width: 599px) {
+
+  .body-inner .abut-me .abut-me__hello,
   .body-inner .abut-me .abut-me__who {
     font-size: 20px;
   }

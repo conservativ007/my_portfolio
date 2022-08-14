@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import "../css/skills.scss";
 import { SiHtml5 } from 'react-icons/si';
 import { FaCss3 } from 'react-icons/fa';
@@ -9,6 +9,13 @@ import { SiWebpack } from 'react-icons/si';
 import { RiEnglishInput } from 'react-icons/ri';
 
 const Skills = () => {
+
+  let [theme, setTheme] = useState(localStorage.getItem("theme"));
+
+  useEffect(() => {
+    console.log(theme)
+  }, [theme])
+
   return (
     <section className="skills">
       {/* <div className="container"> */}
@@ -63,8 +70,10 @@ const Skills = () => {
           </div>
         </div>
         <div className="skills-content__item">
-          <div className="skills-content__item-icon">
-            <RiEnglishInput size={"5em"} color={"#2d3436"} />
+          <div className="skills-content__item-icon custom">
+            En
+            {/* <RiEnglishInput size={"5em"} color={"#2d3436"} /> */}
+            {/* <RiEnglishInput size={"5em"} color={localStorage.getItem("theme") !== null ? "white" : "#2d3436"} /> */}
           </div>
           <div className="skills-content__item-description">
             Владею английским языком уровня Elementary - Pre-Intermediate

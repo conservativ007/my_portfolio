@@ -1,5 +1,9 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { MdDarkMode, MdOutlineDarkMode } from 'react-icons/md';
+import { WiMoonAltWaningCrescent5 } from 'react-icons/wi';
+import { FiSun } from 'react-icons/fi';
+
+import { goTo } from '../functions/goTo';
 
 import "../css/header.scss";
 import "../css/perspectivePage.scss";
@@ -39,21 +43,22 @@ const Header = () => {
   }, []);
 
   return (
-    <header>
+    <header className="header">
       <div className="header__content">
         <nav className="header__menu">
-          {/* <input ref={ref} type="checkbox" className="toggler"></input> */}
           <div ref={ref} className="hamburger"><div></div></div>
-          {/* <li onClick={() => goTo("about")}>Обо мне</li>
-              <li onClick={() => goTo("skills")}>Навыки</li>
-              <li onClick={() => goTo("portfolio")}>Портфолио</li> */}
-          {/* <li>
-                {
-                  darkTheme === true ?
-                    <MdDarkMode className="dark-mode" onClick={() => setDrakTheme(!darkTheme)} /> :
-                    <MdOutlineDarkMode className="dark-mode__active" onClick={() => setDrakTheme(!darkTheme)} />
-                }
-              </li> */}
+          <ul>
+            <li onClick={(e) => goTo(e, "about", true)}>Обо мне</li>
+            <li onClick={(e) => goTo(e, "skills", true)}>Навыки</li>
+            <li onClick={(e) => goTo(e, "portfolio", true)}>Портфолио</li>
+            <li>
+              {
+                darkTheme === true ?
+                  <FiSun onClick={() => setDrakTheme(!darkTheme)} /> :
+                  <WiMoonAltWaningCrescent5 onClick={() => setDrakTheme(!darkTheme)} />
+              }
+            </li>
+          </ul>
         </nav>
       </div>
     </header>

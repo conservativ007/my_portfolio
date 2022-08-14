@@ -1,18 +1,24 @@
 .dark {
 
-  body {
-    background-color: black;
-  }
+  // body
 
   .body-fon {
-    background-color: black;
+    background-color: #2f3640;
   }
 
   .body-inner {
-    background-color: black;
+    background-color: #2f3640;
   }
 
-  .abut-me {
+  .wrapper {
+    background-color: #2f3640;
+  }
+
+
+  // about
+
+  .about-title,
+  .skills-title {
     color: #ccc;
   }
 
@@ -20,10 +26,19 @@
     color: #b2bec3;
   }
 
-  .skills-test__item-text {
+
+  // skills
+  .skills-content__item {
     color: #b2bec3;
   }
 
+  .skills-content__item-icon.custom {
+    color: #ccc;
+  }
+
+  // portfolio
+
+  .portfolio-title,
   .item-description__title,
   .item-description__description {
     color: #b2bec3;
