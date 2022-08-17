@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { MdDarkMode, MdOutlineDarkMode } from 'react-icons/md';
+
 import { WiMoonAltWaningCrescent5 } from 'react-icons/wi';
 import { FiSun } from 'react-icons/fi';
 
@@ -8,10 +8,19 @@ import { goTo } from '../functions/goTo';
 import "../css/header.scss";
 import "../css/perspectivePage.scss";
 
+import data from "../../assets/data/data.json";
+import { useDispatch, useSelector } from 'react-redux';
+
+import { actionLanguage } from '../store/languageReducer';
+import SwitchLanguages from './SwitchLanguages.jsx';
+
 const Header = () => {
 
   const [darkTheme, setDrakTheme] = useState(localStorage.getItem("theme") === null ? false : true);
   const ref = useRef(null);
+
+  const dispatch = useDispatch();
+  const language = useSelector(state => state.languageReducer);
 
   useEffect(() => {
     if (darkTheme === true) {
@@ -42,15 +51,20 @@ const Header = () => {
     })
   }, []);
 
+
+
   return (
     <header className="header">
       <div className="header__content">
         <nav className="header__menu">
           <div ref={ref} className="hamburger"><div></div></div>
           <ul>
-            <li onClick={(e) => goTo(e, "about", true)}>Обо мне</li>
-            <li onClick={(e) => goTo(e, "skills", true)}>Навыки</li>
-            <li onClick={(e) => goTo(e, "portfolio", true)}>Портфолио</li>
+            <li onClick={(e) => goTo(e, "about", true)}>{data[language].header[0]}</li>
+            <li onClick={(e) => goTo(e, "skills", true)}>{data[language].header[1]}</li>
+            <li onClick={(e) => goTo(e, "portfolio", true)}>{data[language].header[2]}</li>
+            <li onClick={() => dispatch(actionLanguage())}>
+              <SwitchLanguages />
+            </li>
             <li>
               {
                 darkTheme === true ?
@@ -59,6 +73,17 @@ const Header = () => {
               }
             </li>
           </ul>
+          {/* <div className="header__menu-additional__options">
+            <div onClick={() => dispatch(actionLanguage())}>
+              <SwitchLanguages />
+            </div>
+
+            {
+              darkTheme === true ?
+                <FiSun onClick={() => setDrakTheme(!darkTheme)} /> :
+                <WiMoonAltWaningCrescent5 onClick={() => setDrakTheme(!darkTheme)} />
+            }
+          </div> */}
         </nav>
       </div>
     </header>

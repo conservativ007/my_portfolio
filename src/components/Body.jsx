@@ -1,18 +1,23 @@
 import React from 'react';
-import photo from "../../assets/photo-test3.png";
+import photo from "../../assets/images/photo-test3.png";
 import "../css/body.scss";
 
 import { BsTelegram, BsGithub } from 'react-icons/bs';
 
+import { useSelector } from 'react-redux';
+import data from "../../assets/data/data.json";
+
 const Body = () => {
+
+  const language = useSelector(state => state.languageReducer);
+
   return (
     <section className="body">
-      {/* <div className="container"> */}
       <div className="body-fon"></div>
       <div className="body-inner">
         <div className="abut-me">
-          <div className="abut-me__hello">Привет, я Максим,</div>
-          <div className="abut-me__who">веб разработчик</div>
+          <div className="abut-me__hello">{data[language].body["welcom-phrase-1"]}</div>
+          <div className="abut-me__who">{data[language].body["welcom-phrase-2"]}</div>
           <div className="about-me__contacts">
 
             <div className="contacts">
@@ -36,7 +41,6 @@ const Body = () => {
         </div>
         <div className="my-photo" style={{ backgroundImage: `url(${photo})` }}></div>
       </div>
-      {/* </div> */}
     </section>
   );
 }

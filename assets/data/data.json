@@ -1,0 +1,184 @@
+{
+  "ru": {
+    "header": [
+      "Обо мне",
+      "Навыки",
+      "Портфолио"
+    ],
+    "body": {
+      "welcom-phrase-1": "Привет, я Максим,",
+      "welcom-phrase-2": "веб разработчик."
+    },
+    "about": {
+      "title": "Обо мне",
+      "content-one": "Начинающий веб разработчик, верстаю адаптивные сайты по макету, а также разрабатываю скрипты на JavaScript.",
+      "content-two": "Успешно закончил RS School в 2021г, есть сертификаты JavaScript и React, есть опыт в командной разработке в рамках rs school, после окончания школы начал изучать английский язык и закреплять знания по разработке на React JS.",
+      "links": [
+        "https://app.rs.school/certificate/q8gv8p3w",
+        "https://app.rs.school/certificate/bedir6l9"
+      ]
+    },
+    "skills": {
+      "title": "Навыки",
+      "html5": "Изучил язык гипертекстовой разметки текста. Научился делать разметку веб-страницы, применять теги и атрибуты.",
+      "css3": "Изучил язык каскадных стилей CSS. Научился стилизовать элементы, с помощию селекторов, атрибутов и классов.",
+      "js": "Изучил JavaScript для придания интерактивности веб-страницам.",
+      "react": "Изучил библиотеку реакт для разработки одностраничных приложений.",
+      "git": "Изучил git - распределённую систему контроля версий, для упрощения разработки в команде и разбиения разработки на этапы. Научился делать коммиты, пушить, создавать ветки, пул реквесты.",
+      "webpack": "Научился работать со сборщиком модулей Webpack.",
+      "english": "Владею английским языком уровня Elementary - Pre-Intermediate."
+    },
+    "portfolio": {
+      "title": "Портфолио",
+      "works": [
+        {
+          "title": "Learn English",
+          "describe": "Приложение для изучения Английских слов",
+          "src": "easy-to-learn.png",
+          "alt": "Lern English",
+          "link": "https://learn-english-by-conservative.netlify.app"
+        },
+        {
+          "title": "Shelter",
+          "describe": "Сайт помощи бездомным животным",
+          "src": "shelter.png",
+          "alt": "shelter",
+          "link": "https://rolling-scopes-school.github.io/conservativ007-JS2020Q3/shelter/pages/main/"
+        },
+        {
+          "title": "Pazzle",
+          "describe": "Попробуй свои силы в пазле",
+          "src": "the-king-lich.png",
+          "alt": "the-king-lich",
+          "link": "https://rolling-scopes-school.github.io/conservativ007-JS2020Q3/game-puzzle/"
+        },
+        {
+          "title": "Momentum",
+          "describe": "Приложение погоды",
+          "src": "momentum.png",
+          "alt": "momentum",
+          "link": "https://momentumbyconservativ.netlify.app/"
+        },
+        {
+          "title": "Web dev",
+          "describe": "Вёрстка макета",
+          "src": "webdev.png",
+          "alt": "webdev",
+          "link": "https://rolling-scopes-school.github.io/conservativ007-JS2020Q3/webdev/"
+        },
+        {
+          "title": "English for kids",
+          "describe": "Изучение некоторых английских слов для самых маленьких",
+          "src": "english-for-kids.png",
+          "alt": "english-for-kids",
+          "link": "https://rolling-scopes-school.github.io/conservativ007-JS2020Q3/english-for-kids/"
+        },
+        {
+          "title": "Tic tac toe",
+          "describe": "Игра крестики нолики",
+          "src": "tic-tac-toe.png",
+          "alt": "tic-tac-toe game",
+          "link": "https://conservativ007-react-game.netlify.app/"
+        },
+        {
+          "title": "Blade runner",
+          "describe": "Игра бегущий по лезвию",
+          "src": "blade-runner.png",
+          "alt": "blade-runner game",
+          "link": "https://blade-runner-2021.netlify.app/"
+        }
+      ]
+    }
+  },
+  "en": {
+    "header": [
+      "About me",
+      "Skills",
+      "Portfolio"
+    ],
+    "body": {
+      "welcom-phrase-1": "Hello, I'm Max,",
+      "welcom-phrase-2": "web developer."
+    },
+    "about": {
+      "title": "About me",
+      "content-one": "I am a novice developer, I make up websites for layout, and also develop scripts in JavaScript.",
+      "content-two": "I successfully graduated from RS School in 2021, I have JavaScript and React certificates, I have experience in team development within rs school, after graduation I began to study English and consolidate my knowledge of React JS development.",
+      "links": [
+        "https://app.rs.school/certificate/q8gv8p3w",
+        "https://app.rs.school/certificate/bedir6l9"
+      ]
+    },
+    "skills": {
+      "title": "Skills",
+      "html5": "Learned Hypertext Markup Language. I learned how to mark up a web page, apply tags and attributes.",
+      "css3": "Learned CSS cascading style language. Learned how to style elements using selectors, attributes and classes.",
+      "js": "Learned JavaScript to add interactivity to web pages.",
+      "react": "Learned the React library for developing single-page applications.",
+      "git": "Learned git - a distributed version control system, to simplify development in a team and break development into stages. I learned how to make commits, push, create branches, pull requests.",
+      "webpack": "Learned how to work with the Webpack module builder.",
+      "english": "I speak English at the level of Elementary - Pre-Intermediate."
+    },
+    "portfolio": {
+      "title": "Portfolio",
+      "works": [
+        {
+          "title": "Learn English",
+          "describe": "Application for learning English words",
+          "src": "easy-to-learn.png",
+          "alt": "Lern English",
+          "link": "https://learn-english-by-conservative.netlify.app"
+        },
+        {
+          "title": "Shelter",
+          "describe": "Help website for homeless animals",
+          "src": "shelter.png",
+          "alt": "shelter",
+          "link": "https://rolling-scopes-school.github.io/conservativ007-JS2020Q3/shelter/pages/main/"
+        },
+        {
+          "title": "Pazzle",
+          "describe": "Try your hand at the puzzle",
+          "src": "the-king-lich.png",
+          "alt": "the-king-lich",
+          "link": "https://rolling-scopes-school.github.io/conservativ007-JS2020Q3/game-puzzle/"
+        },
+        {
+          "title": "Momentum",
+          "describe": "Weather app",
+          "src": "momentum.png",
+          "alt": "momentum",
+          "link": "https://momentumbyconservativ.netlify.app/"
+        },
+        {
+          "title": "Web dev",
+          "describe": "Page layout",
+          "src": "webdev.png",
+          "alt": "webdev",
+          "link": "https://rolling-scopes-school.github.io/conservativ007-JS2020Q3/webdev/"
+        },
+        {
+          "title": "English for kids",
+          "describe": "Learning some of English words for the little ones",
+          "src": "english-for-kids.png",
+          "alt": "english-for-kids",
+          "link": "https://rolling-scopes-school.github.io/conservativ007-JS2020Q3/english-for-kids/"
+        },
+        {
+          "title": "Tic tac toe",
+          "describe": "Game tic tac toe",
+          "src": "tic-tac-toe.png",
+          "alt": "tic-tac-toe game",
+          "link": "https://conservativ007-react-game.netlify.app/"
+        },
+        {
+          "title": "Blade runner",
+          "describe": "Game blade runner",
+          "src": "blade-runner.png",
+          "alt": "Game blade-runner",
+          "link": "https://blade-runner-2021.netlify.app/"
+        }
+      ]
+    }
+  }
+}
