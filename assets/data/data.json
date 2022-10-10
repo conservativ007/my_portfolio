@@ -43,7 +43,7 @@
           "describe": "Сайт помощи бездомным животным",
           "src": "shelter.png",
           "alt": "shelter",
-          "link": "https://rolling-scopes-school.github.io/conservativ007-JS2020Q3/shelter/pages/main/"
+          "link": "https://conservativ007.github.io/shelter/shelter/"
         },
         {
           "title": "Pazzle",
@@ -64,28 +64,28 @@
           "describe": "Вёрстка макета",
           "src": "webdev.png",
           "alt": "webdev",
-          "link": "https://rolling-scopes-school.github.io/conservativ007-JS2020Q3/webdev/"
+          "link": "https://conservativ007.github.io/webdev/"
         },
         {
           "title": "English for kids",
           "describe": "Изучение некоторых английских слов для самых маленьких",
           "src": "english-for-kids.png",
           "alt": "english-for-kids",
-          "link": "https://rolling-scopes-school.github.io/conservativ007-JS2020Q3/english-for-kids/"
+          "link": "https://conservativ007.github.io/english-for-kids/"
         },
         {
           "title": "Tic tac toe",
           "describe": "Игра крестики нолики",
           "src": "tic-tac-toe.png",
           "alt": "tic-tac-toe game",
-          "link": "https://conservativ007-react-game.netlify.app/"
+          "link": "https://tic-tac-toe-conservative.netlify.app/"
         },
         {
           "title": "Blade runner",
           "describe": "Игра бегущий по лезвию",
           "src": "blade-runner.png",
           "alt": "blade-runner game",
-          "link": "https://blade-runner-2021.netlify.app/"
+          "link": "https://rsclone-conservative.netlify.app/"
         }
       ]
     }
