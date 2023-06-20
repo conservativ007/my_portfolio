@@ -1,3 +1,5 @@
+@import './text.scss';
+
 .about {
   margin-top: 50px;
   padding: 0 20px;
@@ -5,10 +7,7 @@
 }
 
 .about-title {
-  font-size: 35px;
-  font-weight: bold;
-  letter-spacing: 2px;
-  color: #2d3436;
+  @include text-title-dark;
 }
 
 .about-text {

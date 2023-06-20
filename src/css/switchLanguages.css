@@ -1,23 +1,22 @@
 .header__menu-additional__options {
-
   height: 50px;
   display: flex;
   align-items: center;
 }
 
-.header__menu-additional__options>div {
+.header__menu-additional__options > div {
   position: relative;
   height: 28px;
   width: 60px;
 }
 
-.header__menu-additional__options>svg {
+.header__menu-additional__options > svg {
   font-size: 25px;
   margin-left: 10px;
 }
 
-
 .checkbox-btn {
+  box-sizing: border-box;
   position: absolute;
   right: 0;
   top: 0;
@@ -57,19 +56,18 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 20px;
-  height: 28px;
+  width: 16px;
+  height: 24px;
   background-color: #000;
   transition: 0.5s;
 }
 
-.checkbox-btn input:checked+div .slide {
+.checkbox-btn input:checked + div .slide {
   transform: translateX(40px);
 }
 
 .checkbox-btn .slide:before {
-
-  content: "en";
+  content: 'en';
   position: absolute;
   top: 0;
   left: -40px;
@@ -83,7 +81,7 @@
 }
 
 .checkbox-btn .slide:after {
-  content: "ru";
+  content: 'ru';
   position: absolute;
   top: 0;
   right: -40px;

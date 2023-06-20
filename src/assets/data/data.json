@@ -1,35 +1,26 @@
 {
   "ru": {
-    "header": [
-      "Обо мне",
-      "Навыки",
-      "Портфолио"
-    ],
+    "header": ["Обо мне", "Навыки", "Портфолио"],
     "body": {
       "welcom-phrase-1": "Привет, я Максим,",
       "welcom-phrase-2": "веб разработчик."
     },
     "about": {
       "title": "Обо мне",
-      "content-one": "Начинающий веб разработчик, верстаю адаптивные сайты по макету, а также разрабатываю скрипты на JavaScript.",
-      "content-two": "Успешно закончил RS School в 2021г, есть сертификаты JavaScript и React, есть опыт в командной разработке в рамках rs school, после окончания школы начал изучать английский язык и закреплять знания по разработке на React JS.",
+      "content-first": "Начинающий веб разработчик, верстаю адаптивные сайты по макету, а также разрабатываю скрипты на JavaScript.",
+      "content-second": "Успешно закончил RS School в 2021г, есть сертификаты JavaScript и React, есть опыт в командной разработке в рамках rs school, после окончания школы начал изучать английский язык и закреплять знания по разработке на React JS.",
+      "content-third": "В 2023 закончил Rs School курс по NodeJS.",
       "links": [
         "https://app.rs.school/certificate/q8gv8p3w",
         "https://app.rs.school/certificate/bedir6l9"
       ]
     },
-    "skills": {
-      "title": "Навыки",
-      "html5": "Изучил язык гипертекстовой разметки текста. Научился делать разметку веб-страницы, применять теги и атрибуты.",
-      "css3": "Изучил язык каскадных стилей CSS. Научился стилизовать элементы, с помощию селекторов, атрибутов и классов.",
-      "js": "Изучил JavaScript для придания интерактивности веб-страницам.",
-      "react": "Изучил библиотеку реакт для разработки одностраничных приложений.",
-      "git": "Изучил git - распределённую систему контроля версий, для упрощения разработки в команде и разбиения разработки на этапы. Научился делать коммиты, пушить, создавать ветки, пул реквесты.",
-      "webpack": "Научился работать со сборщиком модулей Webpack.",
-      "english": "Владею английским языком уровня Elementary - Pre-Intermediate."
-    },
+
     "portfolio": {
       "title": "Портфолио",
+      "describe-frontend": "only frontend",
+      "describe-backend": "only backend",
+      "describe-backend-frontend": "backend plus frontend",
       "works": [
         {
           "title": "Learn English",
@@ -91,36 +82,28 @@
     }
   },
   "en": {
-    "header": [
-      "About me",
-      "Skills",
-      "Portfolio"
-    ],
+    "header": ["About me", "Skills", "Portfolio"],
     "body": {
       "welcom-phrase-1": "Hello, I'm Max,",
       "welcom-phrase-2": "web developer."
     },
     "about": {
       "title": "About me",
-      "content-one": "I am a novice developer, I make up websites for layout, and also develop scripts in JavaScript.",
-      "content-two": "I successfully graduated from RS School in 2021, I have JavaScript and React certificates, I have experience in team development within rs school, after graduation I began to study English and consolidate my knowledge of React JS development.",
+      "content-first": "I am a novice developer, I make up websites for layout, and also develop scripts in JavaScript.",
+      "content-second": "I successfully graduated from RS School in 2021, I have JavaScript and React certificates, I have experience in team development within rs school, after graduation I began to study English and consolidate my knowledge of React JS development.",
+      "content-third": "In 2023 completed Rs School NodeJS course.",
       "links": [
         "https://app.rs.school/certificate/q8gv8p3w",
         "https://app.rs.school/certificate/bedir6l9"
       ]
     },
-    "skills": {
-      "title": "Skills",
-      "html5": "Learned Hypertext Markup Language. I learned how to mark up a web page, apply tags and attributes.",
-      "css3": "Learned CSS cascading style language. Learned how to style elements using selectors, attributes and classes.",
-      "js": "Learned JavaScript to add interactivity to web pages.",
-      "react": "Learned the React library for developing single-page applications.",
-      "git": "Learned git - a distributed version control system, to simplify development in a team and break development into stages. I learned how to make commits, push, create branches, pull requests.",
-      "webpack": "Learned how to work with the Webpack module builder.",
-      "english": "I speak English at the level of Elementary - Pre-Intermediate."
-    },
+
     "portfolio": {
       "title": "Portfolio",
+      "describe-frontend": "only frontend",
+      "describe-backend": "only backend",
+      "describe-backend-frontend": "backend plus frontend",
+
       "works": [
         {
           "title": "Learn English",

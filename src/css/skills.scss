@@ -1,3 +1,5 @@
+@import './text.scss';
+
 .skills {
   width: 100%;
   padding: 20px 0;
@@ -23,11 +25,7 @@ a:visited {
 }
 
 .skills-title {
-  font-size: 35px;
-  font-weight: bold;
-  letter-spacing: 2px;
-  color: #2d3436;
-
+  @include text-title-dark;
 }
 
 .skills-content {

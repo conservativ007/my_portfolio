@@ -1,4 +1,4 @@
-@import url("./switchLanguages.css");
+@import url('./switchLanguages.css');
 
 :root {
   --MainFont: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -38,8 +38,13 @@ header {
 .header__content ul li:last-child {
   margin-left: auto;
   margin-right: 10px;
+  width: 28px;
+  height: 28px;
 
-  font-size: 28px;
+  img {
+    width: 100%;
+    height: 100%;
+  }
 }
 
 .header__content ul li:nth-child(4) {
@@ -57,7 +62,7 @@ header {
 .hamburger {
   position: absolute;
   top: 5px;
-  right: 5px;
+  right: 20px;
   height: 40px;
   width: 40px;
   padding: 5px;
@@ -70,7 +75,6 @@ header {
 }
 
 @media (max-width: 599px) {
-
   .header__content ul li:nth-child(1) {
     display: none;
   }
@@ -104,7 +108,7 @@ header {
     z-index: 10;
   }
 
-  .hamburger>div {
+  .hamburger > div {
     position: relative;
     top: 0;
     left: 0;
@@ -114,8 +118,8 @@ header {
     transition: all 0.4s ease;
   }
 
-  .hamburger>div::after,
-  .hamburger>div::before {
+  .hamburger > div::after,
+  .hamburger > div::before {
     position: absolute;
     content: '';
     top: 10px;
@@ -126,7 +130,7 @@ header {
     transition: all 0.4s ease;
   }
 
-  .hamburger>div::before {
+  .hamburger > div::before {
     top: -10px;
   }
 
@@ -136,30 +140,29 @@ header {
     cursor: pointer;
   }
 
-  .hamburger:hover.hamburger>div::before {
+  .hamburger:hover.hamburger > div::before {
     background-color: #0984e3;
   }
 
-  .hamburger:hover.hamburger>div {
+  .hamburger:hover.hamburger > div {
     background-color: #d63031;
   }
 
-  .hamburger:hover.hamburger>div::after {
+  .hamburger:hover.hamburger > div::after {
     background-color: #00b894;
   }
 
-  .modalview.animate .hamburger>div::before {
+  .modalview.animate .hamburger > div::before {
     background-color: #0984e3;
   }
 
-  .modalview.animate .hamburger>div {
+  .modalview.animate .hamburger > div {
     background-color: #d63031;
   }
 
-  .modalview.animate .hamburger>div::after {
+  .modalview.animate .hamburger > div::after {
     background-color: #00b894;
   }
 }
-
 
 // switch language

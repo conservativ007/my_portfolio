@@ -1,59 +1,65 @@
-.dark {
+@import './colors.scss';
+@import './text.scss';
 
+.dark {
   // body
 
   .abut-me__hello {
-    color: #ccc;
+    color: $dark-text-light-silver;
   }
 
   .body-fon {
-    background-color: #2f3640;
+    background-color: $dark-background;
   }
 
   .body-inner {
-    background-color: #2f3640;
+    background-color: $dark-background;
   }
 
   .wrapper {
-    background-color: #2f3640;
+    background-color: $dark-background;
   }
-
 
   // about
 
   .about-title,
-  .skills-title {
-    color: #ccc;
+  .skills-title,
+  .portfolio-title {
+    color: $dark-text-light-silver;
   }
 
   .about-text p {
-    color: #b2bec3;
+    color: $dark-text-medium-silver;
   }
-
 
   // skills
   .skills-content__item {
-    color: #b2bec3;
+    color: $dark-text-medium-silver;
   }
 
   .skills-content__item-icon.custom {
-    color: #ccc;
+    color: $dark-text-light-silver;
   }
 
   // portfolio
 
-  .portfolio-title,
-  .item-description__title,
-  .item-description__description {
-    color: #b2bec3;
+  .portfolio {
+    .portfolio-item {
+      color: $dark-text-medium-silver;
+      border: $border-item-dark;
+    }
+
+    .portfolio-description {
+      color: $dark-text-medium-silver;
+    }
   }
 
   .about-me__contacts .contacts .contacts-linked {
-    color: #2d3436;
-    background-color: white;
+    color: $black-gray;
+    background-color: $dark-text-contacts-color;
   }
 
   .body .abut-me .contacts-item {
-    color: white;
+    color: $dark-text-contacts-color;
   }
 }
