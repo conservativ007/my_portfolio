@@ -5,14 +5,10 @@ import Body from './Body';
 import About from './About';
 import Portfolio from './Portfolio';
 import Skills from './Skills';
-
-import { useAppSelector } from '../hooks/redux';
-import data from '../assets/data/data.json';
-
-import { goTo } from '../functions/goTo';
+import '../css/scrollbar.css';
+import { OuterNavigation } from './OuterNavigation';
 
 const App = () => {
-  const { language } = useAppSelector((state) => state.languageReducer);
   return (
     <>
       <div className="container">
@@ -24,29 +20,7 @@ const App = () => {
           <Portfolio />
         </div>
       </div>
-      <nav className="outer-nav vertical">
-        <a
-          href=""
-          onClick={(e) => goTo(e, 'about', false)}
-          className="outer-nav__navigate"
-        >
-          {data[language].about.title}
-        </a>
-        <a
-          href=""
-          onClick={(e) => goTo(e, 'skills', false)}
-          className="outer-nav__navigate"
-        >
-          {language === 'ru' ? 'Навыки' : 'Skills'}
-        </a>
-        <a
-          href=""
-          onClick={(e) => goTo(e, 'portfolio', false)}
-          className="outer-nav__navigate"
-        >
-          {data[language].portfolio.title}
-        </a>
-      </nav>
+      <OuterNavigation />
     </>
   );
 };

@@ -6,12 +6,6 @@ import { dataIcon } from '../assets/data/dataIcon';
 export const PortfolioItem = (item: IPortfolioItem) => {
   const { language } = useAppSelector((state) => state.languageReducer);
 
-  const redirect = (url: string) => {
-    console.log(url);
-
-    window.location.href = url;
-  };
-
   return (
     <div className="portfolio-item">
       <div className="title">{item.title[language]}</div>

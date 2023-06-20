@@ -15,70 +15,11 @@
         "https://app.rs.school/certificate/bedir6l9"
       ]
     },
-
     "portfolio": {
-      "title": "Портфолио",
-      "describe-frontend": "only frontend",
-      "describe-backend": "only backend",
-      "describe-backend-frontend": "backend plus frontend",
-      "works": [
-        {
-          "title": "Learn English",
-          "describe": "Приложение для изучения Английских слов",
-          "src": "easy-to-learn.png",
-          "alt": "Lern English",
-          "link": "https://learn-english-by-conservative.netlify.app"
-        },
-        {
-          "title": "Shelter",
-          "describe": "Сайт помощи бездомным животным",
-          "src": "shelter.png",
-          "alt": "shelter",
-          "link": "https://conservativ007.github.io/shelter/"
-        },
-        {
-          "title": "Pazzle",
-          "describe": "Попробуй свои силы в пазле",
-          "src": "the-king-lich.png",
-          "alt": "the-king-lich",
-          "link": "https://rolling-scopes-school.github.io/conservativ007-JS2020Q3/game-puzzle/"
-        },
-        {
-          "title": "Momentum",
-          "describe": "Приложение погоды",
-          "src": "momentum.png",
-          "alt": "momentum",
-          "link": "https://momentumbyconservativ.netlify.app/"
-        },
-        {
-          "title": "Web dev",
-          "describe": "Вёрстка макета",
-          "src": "webdev.png",
-          "alt": "webdev",
-          "link": "https://conservativ007.github.io/webdev/"
-        },
-        {
-          "title": "English for kids",
-          "describe": "Изучение некоторых английских слов для самых маленьких",
-          "src": "english-for-kids.png",
-          "alt": "english-for-kids",
-          "link": "https://conservativ007.github.io/english-for-kids/"
-        },
-        {
-          "title": "Tic tac toe",
-          "describe": "Игра крестики нолики",
-          "src": "tic-tac-toe.png",
-          "alt": "tic-tac-toe game",
-          "link": "https://tic-tac-toe-conservative.netlify.app/"
-        },
-        {
-          "title": "Blade runner",
-          "describe": "Игра бегущий по лезвию",
-          "src": "blade-runner.png",
-          "alt": "blade-runner game",
-          "link": "https://rsclone-conservative.netlify.app/"
-        }
-      ]
+      "title": "Портфолио"
+    },
+    "skills": {
+      "title": "Навыки"
     }
   },
   "en": {
@@ -97,71 +38,11 @@
         "https://app.rs.school/certificate/bedir6l9"
       ]
     },
-
     "portfolio": {
-      "title": "Portfolio",
-      "describe-frontend": "only frontend",
-      "describe-backend": "only backend",
-      "describe-backend-frontend": "backend plus frontend",
-
-      "works": [
-        {
-          "title": "Learn English",
-          "describe": "Application for learning English words",
-          "src": "easy-to-learn.png",
-          "alt": "Lern English",
-          "link": "https://learn-english-by-conservative.netlify.app"
-        },
-        {
-          "title": "Shelter",
-          "describe": "Help website for homeless animals",
-          "src": "shelter.png",
-          "alt": "shelter",
-          "link": "https://rolling-scopes-school.github.io/conservativ007-JS2020Q3/shelter/pages/main/"
-        },
-        {
-          "title": "Pazzle",
-          "describe": "Try your hand at the puzzle",
-          "src": "the-king-lich.png",
-          "alt": "the-king-lich",
-          "link": "https://rolling-scopes-school.github.io/conservativ007-JS2020Q3/game-puzzle/"
-        },
-        {
-          "title": "Momentum",
-          "describe": "Weather app",
-          "src": "momentum.png",
-          "alt": "momentum",
-          "link": "https://momentumbyconservativ.netlify.app/"
-        },
-        {
-          "title": "Web dev",
-          "describe": "Page layout",
-          "src": "webdev.png",
-          "alt": "webdev",
-          "link": "https://rolling-scopes-school.github.io/conservativ007-JS2020Q3/webdev/"
-        },
-        {
-          "title": "English for kids",
-          "describe": "Learning some of English words for the little ones",
-          "src": "english-for-kids.png",
-          "alt": "english-for-kids",
-          "link": "https://rolling-scopes-school.github.io/conservativ007-JS2020Q3/english-for-kids/"
-        },
-        {
-          "title": "Tic tac toe",
-          "describe": "Game tic tac toe",
-          "src": "tic-tac-toe.png",
-          "alt": "tic-tac-toe game",
-          "link": "https://conservativ007-react-game.netlify.app/"
-        },
-        {
-          "title": "Blade runner",
-          "describe": "Game blade runner",
-          "src": "blade-runner.png",
-          "alt": "Game blade-runner",
-          "link": "https://blade-runner-2021.netlify.app/"
-        }
-      ]
+      "title": "Portfolio"
+    },
+    "skills": {
+      "title": "Skills"
     }
   }
 }
