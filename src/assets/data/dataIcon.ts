@@ -12,6 +12,7 @@ interface dataIcon {
   nestjs: IIcon;
   jest: IIcon;
   postgres: IIcon;
+  docker: IIcon;
   redux: IIcon;
   app: IIcon;
   test: IIcon;
@@ -77,6 +78,11 @@ export const dataIcon: dataIcon = {
     name: 'redux',
     size: '5em',
     color: '#7248b6',
+  },
+  docker: {
+    name: 'docker',
+    size: '5em',
+    color: '#2391e6',
   },
   app: {
     name: 'app',

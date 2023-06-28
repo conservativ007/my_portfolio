@@ -1,8 +1,6 @@
 import React from 'react';
 import '../css/skills.scss';
 
-// import { dataSkills } from '../assets/data/index';
-
 import { useAppSelector } from '../hooks/redux';
 import { skills } from '../assets/data/skills';
 import { SkillsItem } from './SkillsItem';

@@ -32,6 +32,8 @@ const About = () => {
         <p>{data[language].about['content-first']}</p>
         <p ref={ref}>{data[language].about['content-second']}</p>
         <p>{data[language].about['content-third']}</p>
+        <p>{data[language].about['content-four']}</p>
+        <p>{data[language].about['content-five']}</p>
       </div>
     </section>
   );

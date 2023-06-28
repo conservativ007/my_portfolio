@@ -82,6 +82,20 @@ export const skills: ISkillsData[] = [
     },
   },
   {
+    image: dataIcon.postgres,
+    skill: {
+      ru: 'Научился работать с Postgres + TypeOrm, CRUD операции.',
+      en: 'Learned to work with Postgres + TypeOrm, CRUD operations.',
+    },
+  },
+  {
+    image: dataIcon.docker,
+    skill: {
+      ru: 'Научился работать с Docker, осознал что это и почему это круто, создание контейнеров, конфигурирование файла Dockerfile и Dockercompose, поиск и скачивание Docker images.',
+      en: "Learned how to work with Docker, realized what it is and why it's cool, creating containers, configuring the Dockerfile and Dockercompose, searching and downloading Docker images.",
+    },
+  },
+  {
     image: dataIcon.test,
     skill: {
       ru: 'Научился писать e2e тесты.',

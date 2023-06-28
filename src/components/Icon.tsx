@@ -8,7 +8,7 @@ import {
   SiPostgresql,
   SiRedux,
 } from 'react-icons/si';
-import { FaCss3, FaReact, FaNodeJs } from 'react-icons/fa';
+import { FaCss3, FaReact, FaNodeJs, FaDocker } from 'react-icons/fa';
 import { AiFillAppstore, AiFillGithub } from 'react-icons/ai';
 
 import { IIcon } from '../assets/data/skills';
@@ -38,6 +38,8 @@ export const Icon = (iconProp: IIcon, size?: string) => {
     return <SiRedux size={iconProp.size} color={iconProp.color} />;
   if (iconProp.name === 'app')
     return <AiFillAppstore size={iconProp.size} color={iconProp.color} />;
+  if (iconProp.name === 'docker')
+    return <FaDocker size={iconProp.size} color={iconProp.color} />;
   if (iconProp.name === 'test')
     return <SiJest size={iconProp.size} color={iconProp.color} />;
   return <div></div>;
