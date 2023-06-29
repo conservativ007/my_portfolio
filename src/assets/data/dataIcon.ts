@@ -1,4 +1,5 @@
 import { IIcon } from './skills';
+const iconSize = 4;
 
 interface dataIcon {
   html: IIcon;
@@ -16,82 +17,94 @@ interface dataIcon {
   redux: IIcon;
   app: IIcon;
   test: IIcon;
+  en: IIcon;
+  // jwt: IIcon;
 }
 
 export const dataIcon: dataIcon = {
   html: {
     name: 'html',
-    size: '5em',
+    size: `${iconSize}em`,
     color: '#db4d25',
   },
   css: {
     name: 'css',
-    size: '5em',
+    size: `${iconSize}em`,
     color: '#2862e9',
   },
   js: {
     name: 'js',
-    size: '5em',
+    size: `${iconSize}em`,
     color: '#efd81d',
   },
   react: {
     name: 'react',
-    size: '5em',
+    size: `${iconSize}em`,
     color: '#5ed3f3',
   },
   git: {
     name: 'git',
-    size: '5em',
+    size: `${iconSize}em`,
     color: '#e84d31',
   },
   webpack: {
     name: 'webpack',
-    size: '5em',
+    size: `${iconSize}em`,
     color: '#61a1df',
   },
   typescript: {
     name: 'typescript',
-    size: '5em',
+    size: `${iconSize}em`,
     color: '#2f74c0',
   },
   nodejs: {
     name: 'nodejs',
-    size: '5em',
+    size: `${iconSize}em`,
     color: '#8bbf3d',
   },
   nestjs: {
     name: 'nestjs',
-    size: '5em',
+    size: `${iconSize}em`,
     color: '#d9224c',
   },
   jest: {
     name: 'test',
-    size: '5em',
+    size: `${iconSize}em`,
     color: '#916f79',
   },
   postgres: {
     name: 'postgres',
-    size: '5em',
+    size: `${iconSize}em`,
     color: '#31648c',
   },
   redux: {
     name: 'redux',
-    size: '5em',
+    size: `${iconSize}em`,
     color: '#7248b6',
   },
   docker: {
     name: 'docker',
-    size: '5em',
+    size: `${iconSize}em`,
     color: '#2391e6',
   },
   app: {
     name: 'app',
-    size: '5em',
+    size: `${iconSize}em`,
     color: '#7248b6',
   },
+  en: {
+    name: 'en',
+    size: `${iconSize}em`,
+    color: '#7248b6',
+  },
+  // jwt: {
+  //   name: 'jwt',
+  //   size: '5em',
+  //   color: '#e84d31',
+  // },
   test: {
     name: 'test',
-    size: '5em',
+    size: `${iconSize}em`,
     color: '#916f79',
   },
 };

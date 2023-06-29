@@ -1,4 +1,5 @@
 @import './text.scss';
+@import './colors.scss';
 
 .skills {
   width: 100%;
@@ -20,12 +21,20 @@ a:visited {
 }
 
 .skills-content__item-icon.custom {
-  font-size: 70px;
-  color: #2d3436;
+  font-size: 3em;
 }
 
 .skills-title {
   @include text-title-dark;
+}
+
+.skills-describe {
+  margin-top: 30px;
+  margin-bottom: -20px;
+  font-variant: small-caps;
+  font-weight: 600;
+  font-size: 20px;
+  color: $black-gray;
 }
 
 .skills-content {

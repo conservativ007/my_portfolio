@@ -2,9 +2,13 @@ import { IPortfolioItem } from '../assets/data/portfolioBackend';
 import { useAppSelector } from '../hooks/redux';
 import { Icon } from './Icon';
 import { dataIcon } from '../assets/data/dataIcon';
+import { log } from 'console';
+import { JwtIcon } from './JwtIcon';
 
 export const PortfolioItem = (item: IPortfolioItem) => {
   const { language } = useAppSelector((state) => state.languageReducer);
+
+  console.log(item);
 
   return (
     <div className="portfolio-item">
@@ -15,6 +19,7 @@ export const PortfolioItem = (item: IPortfolioItem) => {
         {item.technologyStack.map((elem, index) => (
           <Icon key={index} {...elem} size="1.7em" />
         ))}
+        {item?.type === 'backend' && <JwtIcon style="stack" />}
       </div>
       <div className="links">
         <div className="links-description">links</div>

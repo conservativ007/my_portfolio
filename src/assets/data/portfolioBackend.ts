@@ -2,6 +2,7 @@ import { IIcon, ISkillDescription } from './skills';
 import { dataIcon } from './dataIcon';
 
 export interface IPortfolioItem {
+  type?: string;
   title: ISkillDescription;
   description: ISkillDescription;
   technologyStack: IIcon[];
@@ -13,6 +14,7 @@ export interface IPortfolioItem {
 }
 
 const worksBackend: IPortfolioItem = {
+  type: 'backend',
   title: {
     en: 'NestJS API',
     ru: 'NestJS API',
@@ -34,6 +36,7 @@ const worksBackend: IPortfolioItem = {
 };
 
 const worksBackendAndFrontend: IPortfolioItem = {
+  type: 'backend',
   title: {
     en: 'Chat app',
     ru: 'Онлайн чат',
