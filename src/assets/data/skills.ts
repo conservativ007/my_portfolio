@@ -105,8 +105,8 @@ export const devOpsSkills: ISkillsData[] = [
   {
     image: dataIcon.git,
     skill: {
-      ru: 'Изучил git - распределённую систему контроля версий, для упрощения разработки в команде и разбиения разработки на этапы. Научился делать коммиты, пушить, создавать ветки, пул реквесты.',
-      en: 'I learned git - a distributed version control system, to simplify development in a team and break development into stages. I learned how to make commits, push, create branches, pull requests.',
+      ru: 'Изучил git - распределённую систему контроля версий, для упрощения разработки в команде и разбиения разработки на этапы. Научился делать коммиты, пушить, создавать ветки, пул реквесты...',
+      en: 'I learned git - a distributed version control system, to simplify development in a team and break development into stages. I learned how to make commits, push, create branches, pull requests...',
     },
   },
   {

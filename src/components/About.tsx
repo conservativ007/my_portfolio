@@ -29,11 +29,12 @@ const About = () => {
     <section className="about">
       <div className="about-title">{data[language].about.title}</div>
       <div className="about-text">
-        <p>{data[language].about['content-first']}</p>
-        <p ref={ref}>{data[language].about['content-second']}</p>
+        <p ref={ref}>{data[language].about['content-first']}</p>
+        <p>{data[language].about['content-second']}</p>
         <p>{data[language].about['content-third']}</p>
         <p>{data[language].about['content-four']}</p>
         <p>{data[language].about['content-five']}</p>
+        <p>{data[language].about['content-six']}</p>
       </div>
     </section>
   );

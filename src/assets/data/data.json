@@ -7,11 +7,13 @@
     },
     "about": {
       "title": "Обо мне",
-      "content-first": "Начинающий веб разработчик, верстаю адаптивные сайты по макету, а также разрабатываю скрипты на JavaScript. Есть опыт работы с фигмой.",
-      "content-second": "Успешно закончил RS School в 2021г, есть сертификаты JavaScript и React, есть опыт в командной разработке в рамках rs school, после окончания школы начал изучать английский язык и закреплять знания по разработке на React JS.",
-      "content-third": "В 2023 закончил Rs School курс по NodeJS.",
-      "content-four": "Есть опыт написания API на NestJS в докер контейнерах, подключение к базе данных (Postgres + TypeOrm). Логирование с записью в файл, валидация входящих параметров, обработка ошибок, обработка HTTP Exception и другое...",
-      "content-five": "Работа с Websocket и SocketIO.",
+      "content-first": "Успешно закончил RS School в 2021г, есть сертификаты JavaScript и React, есть опыт в командной разработке в рамках rs school, после окончания курса начал изучать английский язык и закреплять знания по разработке на React JS.",
+      "content-second": "В 2023 закончил Rs School курс по NodeJS.",
+      "content-third": "Прочёл книги: Отзывчивый дизайн на HTML5 и CSS3 для любых устройств, Вы не знаете JS: Область видимости и замыкания, погружение в паттерны проектрирования. Знаком с принципами SOLID. Знаю паттерн Singleton и его реализацию, понимаю для чего вообще нужны паттерны.",
+      "content-four": "Знаю что такое Event loop. Есть бесконечный цикл, в котором движок JavaScript ожидает задачи, исполняет их и снова ожидает появления новых. Есть несколько очередей с мИкро и мАкро тасками, в приорете выполняются сначало мИкротаски (в оновном это промисы) это очень кратко и в контексте браузера, в NodeJS Event loop работает иначе но об этом расскажу при встрече.",
+      "content-five": "Есть опыт написания API на NestJS в докер контейнерах, подключение к базе данных (Postgres + TypeOrm). Логирование с записью в файл, валидация входящих параметров, обработка ошибок, обработка HTTP Exception и другое...",
+      "content-six": "Работал с Websocket и SocketIO.",
+
       "links": [
         "https://app.rs.school/certificate/q8gv8p3w",
         "https://app.rs.school/certificate/bedir6l9"
@@ -32,11 +34,12 @@
     },
     "about": {
       "title": "About me",
-      "content-first": "I am a novice developer, I make up websites for layout, and also develop scripts in JavaScript. I have experience with figma.",
-      "content-second": "I successfully graduated from RS School in 2021, I have JavaScript and React certificates, I have experience in team development within rs school, after graduation I began to study English and consolidate my knowledge of React JS development.",
-      "content-third": "In 2023 completed Rs School NodeJS course.",
-      "content-four": "I have experience writing API in NestJS in docker containers, database connection (Postgres + TypeOrm). Logging with writing to a file, validation of incoming parameters, error handling, HTTP Exception handling and more...",
-      "content-five": "Working with Websocket and SocketIO.",
+      "content-first": "I successfully graduated from RS School in 2021, I have JavaScript and React certificates, I have experience in team development within rs school, after graduation I began to study English and consolidate my knowledge of React JS development.",
+      "content-second": "In 2023 completed Rs School NodeJS course.",
+      "content-third": "Read books: Responsive design in HTML5 and CSS3 for any device, you don't know JS: Scope and closures, diving into design patterns. Familiar with SOLID principles. I know the Singleton pattern and its implementation, I understand why patterns are needed at all.",
+      "content-four": "I know what an event loop is. There is an infinite loop in which the JavaScript engine waits for tasks, executes them, and again waits for new ones to appear. There are several queues with micro and macro tasks, in the priority, micro tasks are executed first (in the main one, these are promises), this is very short and in the context of the browser, in the NodeJS Event loop it works differently, but I’ll tell you about it when we meet.",
+      "content-five": "I have experience writing API in NestJS in docker containers, database connection (Postgres + TypeOrm). Logging with writing to a file, validation of incoming parameters, error handling, HTTP Exception handling and more...",
+      "content-six": "Worked with Websocket and SocketIO.",
       "links": [
         "https://app.rs.school/certificate/q8gv8p3w",
         "https://app.rs.school/certificate/bedir6l9"
