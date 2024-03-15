@@ -56,7 +56,7 @@ const worksBackendAndFrontend: IPortfolioItem = {
     dataIcon.postgres,
   ],
   links: {
-    url: 'http://85.209.148.189:3000/',
+    url: 'http://chat-app.by',
     github: 'https://github.com/conservativ007/chat-server',
   },
 };

@@ -35,6 +35,8 @@ const About = () => {
         <p>{data[language].about['content-four']}</p>
         <p>{data[language].about['content-five']}</p>
         <p>{data[language].about['content-six']}</p>
+        <p>{data[language].about['content-seven']}</p>
+        <p>{data[language].about['content-eight']}</p>
       </div>
     </section>
   );

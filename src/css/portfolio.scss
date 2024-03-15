@@ -52,7 +52,7 @@
 
       .links-description {
         margin-bottom: 5px;
-        font-size: 14px;
+        font-size: 15px;
         font-variant: small-caps;
         font-weight: 600;
       }
@@ -62,18 +62,19 @@
         cursor: pointer;
 
         &:hover {
-          transform: scale(1.1);
+          transform: scale(1.04);
         }
       }
       .link-app {
         cursor: pointer;
         &:hover {
-          transform: scale(1.1);
+          transform: scale(1.04);
         }
       }
 
       .links-items {
         display: flex;
+        flex-direction: column;
       }
     }
   }

@@ -8,7 +8,7 @@ import { JwtIcon } from './JwtIcon';
 export const PortfolioItem = (item: IPortfolioItem) => {
   const { language } = useAppSelector((state) => state.languageReducer);
 
-  console.log(item);
+  // console.log(item);
 
   return (
     <div className="portfolio-item">
@@ -22,11 +22,13 @@ export const PortfolioItem = (item: IPortfolioItem) => {
         {item?.type === 'backend' && <JwtIcon style="stack" />}
       </div>
       <div className="links">
-        <div className="links-description">links</div>
+        {/* <div className="links-description">ссылки</div> */}
         <div className="links-items">
           <div className="link-github">
             <a href={item.links.github}>
-              <Icon key={Date.now()} {...dataIcon.git} size="1.7em" />
+              {language === 'ru' ? 'ссылка на гитхаб' : 'github link'}
+
+              {/* <Icon key={Date.now()} {...dataIcon.git} size="1.7em" /> */}
             </a>
           </div>
           {item.links.url === '' ? (
@@ -34,7 +36,8 @@ export const PortfolioItem = (item: IPortfolioItem) => {
           ) : (
             <div className="link-app">
               <a href={item.links.url}>
-                <Icon key={Date.now()} {...dataIcon.app} size="1.7em" />
+                {language === 'ru' ? 'ссылка на сайт' : 'website link'}
+                {/* <Icon key={Date.now()} {...dataIcon.app} size="1.7em" /> */}
               </a>
             </div>
           )}
